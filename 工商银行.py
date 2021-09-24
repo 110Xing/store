@@ -140,6 +140,7 @@ def zz():
                         cp=int(input("请输入转出金额"))
                         if bank[j]["money"]-cp>=0:
                             bank[j]["money"]=bank[j]["money"]-cp
+                            bank[i]["money"]=bank[i]["money"]+cp
                             print("转出成功")
                             info = '''
                                                         ------------个人信息------------
